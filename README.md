@@ -1,2 +1,3 @@
 # Basic_ML_project
-Its my first repository
+Its my first Git repository.
+Author - Shreyansh Yadav
