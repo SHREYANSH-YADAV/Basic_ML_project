@@ -1,0 +1,42 @@
+{
+  "best_model": "Linear Regression",
+  "task": "regression",
+  "numeric_cols": [
+    "Attendance_Percent",
+    "Weekly_Study_Hours",
+    "Assignment_Score",
+    "Internal_Assessment_1",
+    "Internal_Assessment_2",
+    "Previous_GPA",
+    "Online_Study_Hours",
+    "Avg_Internal_Assessment",
+    "Total_Study_Hours"
+  ],
+  "categorical_cols": [
+    "Gender",
+    "Extracurricular_Activities",
+    "Parental_Education",
+    "Internet_Access"
+  ],
+  "target": "Final_Exam_Score",
+  "metrics": {
+    "Linear Regression": {
+      "MAE": 3.468,
+      "MSE": 19.068,
+      "RMSE": 4.367,
+      "R2": 0.5937
+    },
+    "Random Forest Regressor": {
+      "MAE": 3.698,
+      "MSE": 21.661,
+      "RMSE": 4.654,
+      "R2": 0.5385
+    },
+    "Gradient Boosting Regressor": {
+      "MAE": 3.679,
+      "MSE": 21.072,
+      "RMSE": 4.59,
+      "R2": 0.551
+    }
+  }
+}
