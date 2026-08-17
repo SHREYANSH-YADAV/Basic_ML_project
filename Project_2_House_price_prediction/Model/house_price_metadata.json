@@ -1,0 +1,40 @@
+{
+  "best_model": "Linear Regression",
+  "task": "regression",
+  "numeric_cols": [
+    "Area_SqFt",
+    "Bedrooms",
+    "Bathrooms",
+    "Age_Years",
+    "Amenities_Count",
+    "Distance_From_City_Center_KM",
+    "Parking_Spaces",
+    "Price_per_SqFt_Proxy",
+    "Room_Density"
+  ],
+  "categorical_cols": [
+    "Location_Tier",
+    "Furnishing_Status"
+  ],
+  "target": "Price_Lakhs",
+  "metrics": {
+    "Linear Regression": {
+      "MAE": 14.752,
+      "MSE": 3628.185,
+      "RMSE": 60.234,
+      "R2": 0.3028
+    },
+    "Random Forest Regressor": {
+      "MAE": 18.852,
+      "MSE": 4257.824,
+      "RMSE": 65.252,
+      "R2": 0.1817
+    },
+    "Gradient Boosting Regressor": {
+      "MAE": 17.246,
+      "MSE": 4084.925,
+      "RMSE": 63.913,
+      "R2": 0.215
+    }
+  }
+}
