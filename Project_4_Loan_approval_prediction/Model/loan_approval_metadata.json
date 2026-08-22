@@ -1,0 +1,49 @@
+{
+  "best_model": "Gradient Boosting Classifier",
+  "task": "classification",
+  "numeric_cols": [
+    "ApplicantIncome",
+    "CoapplicantIncome",
+    "LoanAmount",
+    "Loan_Amount_Term",
+    "Credit_History",
+    "Total_Income",
+    "Loan_Income_Ratio"
+  ],
+  "categorical_cols": [
+    "Gender",
+    "Married",
+    "Dependents",
+    "Education",
+    "Self_Employed",
+    "Property_Area"
+  ],
+  "target": "Loan_Status",
+  "metrics": {
+    "Logistic Regression": {
+      "Accuracy": 0.5583,
+      "Precision": 0.7869,
+      "Recall": 0.5455,
+      "F1": 0.6443,
+      "ROC_AUC": 0.5639
+    },
+    "Random Forest Classifier": {
+      "Accuracy": 0.5667,
+      "Precision": 0.7069,
+      "Recall": 0.6989,
+      "F1": 0.7029,
+      "ROC_AUC": 0.5159
+    },
+    "Gradient Boosting Classifier": {
+      "Accuracy": 0.6708,
+      "Precision": 0.7277,
+      "Recall": 0.8807,
+      "F1": 0.7969,
+      "ROC_AUC": 0.5218
+    }
+  },
+  "classes": [
+    "N",
+    "Y"
+  ]
+}
