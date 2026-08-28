@@ -1,0 +1,51 @@
+{
+  "best_model": "Logistic Regression",
+  "task": "classification",
+  "numeric_cols": [
+    "Age",
+    "MonthlyIncome",
+    "DistanceFromHome_KM",
+    "YearsAtCompany",
+    "JobSatisfaction",
+    "WorkLifeBalance",
+    "EnvironmentSatisfaction",
+    "TrainingTimesLastYear",
+    "Income_per_YearAtCompany",
+    "Satisfaction_Index"
+  ],
+  "categorical_cols": [
+    "Gender",
+    "Department",
+    "JobRole",
+    "OverTime",
+    "MaritalStatus"
+  ],
+  "target": "Attrition",
+  "metrics": {
+    "Logistic Regression": {
+      "Accuracy": 0.6857,
+      "Precision": 0.2059,
+      "Recall": 0.75,
+      "F1": 0.3231,
+      "ROC_AUC": 0.7902
+    },
+    "Random Forest Classifier": {
+      "Accuracy": 0.8929,
+      "Precision": 0.375,
+      "Recall": 0.1071,
+      "F1": 0.1667,
+      "ROC_AUC": 0.7259
+    },
+    "Gradient Boosting Classifier": {
+      "Accuracy": 0.9107,
+      "Precision": 0.7143,
+      "Recall": 0.1786,
+      "F1": 0.2857,
+      "ROC_AUC": 0.7126
+    }
+  },
+  "classes": [
+    "No",
+    "Yes"
+  ]
+}
